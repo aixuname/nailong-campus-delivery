@@ -8,6 +8,8 @@
 
 在 Releases 下载 `nailong-campus-delivery-windows-x64-v1.0.0.zip`，完整解压后打开“奶龙外卖”文件夹，双击 **奶龙外卖.exe**。无需安装 Python，也不需要联网。适用 Windows 64 位，已在 Windows 11 测试。
 
+玩家压缩包只含 `奶龙外卖.exe`、`_internal/`、`使用说明.txt` 和一份 `agent.md`，源码与开发工具留在本仓库。
+
 请保留随包的 `_internal` 文件夹。成绩、音量设置和临时文件保存在程序旁的 `data` 中。可以为 exe 创建自己的桌面快捷方式。
 
 ## 游戏内容
@@ -66,7 +68,7 @@
 
 自动检查覆盖算法、29 个地点、动画音频、四种事件、拖动撤销、事件节奏与只读回放。最终 exe 还支持 `--desktop-check`，会在程序旁的 data 中生成自检报告。
 
-接手项目的开发者或 AI 助手请先阅读 [agent.md](agent.md)；[AGENTS.md](AGENTS.md) 提供同一份协作指引。更多细节见 [源码说明](source/README.md)。
+接手项目的开发者或 AI 助手请先阅读 [agent.md](agent.md)。更多细节见 [源码说明](source/README.md)。
 
 ## 素材说明
 
